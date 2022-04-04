@@ -1,0 +1,24 @@
+.week, .day {
+    display: flex;
+}
+
+.week {
+    flex-direction: row;
+}
+
+.day {
+    flex-direction: column;
+    align-items: center;
+}
+
+.day>div {
+    height: 50px;
+
+}
+
+.day img {
+    max-width: 70px;
+    width: 100%;
+    min-width: 40px;
+    height: 100%;
+}
